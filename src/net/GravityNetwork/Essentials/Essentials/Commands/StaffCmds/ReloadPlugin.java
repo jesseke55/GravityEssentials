@@ -30,7 +30,7 @@ public class ReloadPlugin implements CommandExecutor {
             Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&4&lTHE SERVER IS RELOADING PLEASE WAIT 1 MINUTE!"));
             Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&5&lPlease wait until the next message."));
             Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6In that time we will clear also the chat!"));
-            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&1When the relaod is completed."));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&1When the reload is completed."));
 
             Bukkit.reload();
 
