@@ -1,0 +1,283 @@
+package net.GravityNetwork.Essentials.Essentials.Commands.StaffCmds;
+
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
+
+/**
+ * Created by Jesse Geerts on
+ * Date: 23-7-2015
+ * Time: 10:49
+ * YOU MAY NOT COPY/STEAL THE CODE WITHOUT ANY PERMISSION!
+ * Date: 23-7-2015
+ * Time: 10:49
+ */
+public class ReloadPlugin implements CommandExecutor {
+
+    public boolean onCommand(CommandSender sender, Command cmd, String commandLable, String[] args) {
+
+        Player p = (Player) sender;
+
+        if (p.hasPermission("gravitynetwork.command.reload")){
+        if (cmd.getName().equalsIgnoreCase("gereload"))
+
+
+
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&4&lTHE SERVER IS RELOADING PLEASE WAIT 1 MINUTE!"));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&5&lPlease wait until the next message."));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6In that time we will clear also the chat!"));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&1When the relaod is completed."));
+
+            Bukkit.reload();
+
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(null);
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&a&lReload is completed and the chat has been cleared!"));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&a&lThanks for waiting."));
+            Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&a&lYou may continue where you were with playing etc."));
+        }
+
+
+        return true;
+    }
+}

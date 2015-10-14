@@ -1,0 +1,67 @@
+name: GravityEssentials
+authors: [ProtocollWeb, Experminator]
+version: 0.0.1
+main: net.GravityNetwork.Essentials.Main.Main
+prefix: Gravity Essentials
+website: https://www.GravityNetwork.net
+description: This is the official essentials plugin of Gravity Network and this is under heavy copyright so you may not copy all the plugin content!
+
+
+commands:
+  fly:
+    usage: /<command>
+    aliases: [efly, flying]
+    description: Gives you fly
+  gamemode:
+    usage: /<command>
+    aliases: [gm, egamemode]
+    description: Change your gamemode
+  ping:
+    usage: /<command> [player]
+    aliases: [eping, pingpong, ms, reaction, pongping]
+    description: Tells your reaction time between you and the server (In MS)
+  speed:
+    usage: /<command>
+    aliases: [espeed, iwantfaster, iwantsomespeed, sanic, sonic]
+    description: Sets your speed
+  clear:
+    usage: /<command>
+    aliases: [ci, clearinv, eci, eclear, eclearinv, cle, clea]
+    description: Clear your inventory
+  gereload:
+    usage: /<command>
+    description: Reload the server
+  website:
+    usage: /<command>
+    description: Check the website because you love us!
+  gmc:
+    usage: /<command>
+    aliases: [egmc, creativemode, ecreativemode]
+  gms:
+    usage: /<command>
+    aliases: [egms, survivalmode, esurvivalmode]
+  gma:
+    usage: /<command>
+    aliases: [egma, adventure, adventuremode, eadventure, eadventuremode]
+  gmss:
+    usage: /<command>
+    aliases: [egmss, espectator, spectator, spectatormode, espectator]
+  enchanttable:
+    usage: /<command>
+    aliases: [echanttab, table]
+  enderchest:
+    usage: /<command>
+    aliases: [echest, echests]
+  workbench:
+    usage: /<command>
+    aliases: [craft, ecraft, ework, eworkbench, craftingtable, ecrafttable, ecraftingtable]
+  list:
+    usage: /<command>
+  getfactions:
+    usage: /<command>
+  getopfactions:
+    usage: /<command>
+  gethub:
+    usage: /<command>
+  getopprison:
+    usage: /<command>
